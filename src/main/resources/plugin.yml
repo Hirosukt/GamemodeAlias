@@ -1,4 +1,50 @@
 name: @name@
 main: @mainPackage@
 version: @version@
-depend: [ CommandAPI ]
+commands:
+
+  survival:
+    aliases:
+      - s
+      - 0
+    permission: gamemodealias.command.survival
+
+  creative:
+    aliases:
+      - c
+      - 1
+    permission: gamemodealias.command.creative
+
+  adventure:
+    aliases:
+      - a
+      - 2
+    permission: gamemodealias.command.adventure
+
+  spectator:
+    aliases:
+      - p
+      - 3
+    permission: gamemodealias.command.spectator
+
+permissions:
+
+  gamemodealias.command.*:
+    default: op
+    children:
+      gamemodealias.command.survival: true
+      gamemodealias.command.creative: true
+      gamemodealias.command.adventure: true
+      gamemodealias.command.spectator: true
+
+  gamemodealias.command.survival:
+    default: op
+
+  gamemodealias.command.creative:
+    default: op
+
+  gamemodealias.command.adventure:
+    default: op
+
+  gamemodealias.command.spectator:
+    default: op
