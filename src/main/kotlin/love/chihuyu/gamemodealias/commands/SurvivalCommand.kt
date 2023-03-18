@@ -9,7 +9,7 @@ object SurvivalCommand: Command("survival") {
     override fun onCommand(sender: CommandSender, label: String, args: Array<out String>) {
         if (sender !is Player || !sender.hasPermission("gamemodealias.command.survival")) return
 
-        sender.gameMode = GameMode.CREATIVE
+        sender.gameMode = GameMode.SURVIVAL
         sender.sendMessage("$prefix Gamemode set to survival.")
     }
 

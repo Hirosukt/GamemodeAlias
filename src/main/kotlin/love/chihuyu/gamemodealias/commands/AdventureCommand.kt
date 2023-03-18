@@ -10,7 +10,7 @@ object AdventureCommand: Command("adventure") {
 
         if (sender !is Player || !sender.hasPermission("gamemodealias.command.adventure")) return
 
-        sender.gameMode = GameMode.CREATIVE
+        sender.gameMode = GameMode.ADVENTURE
         sender.sendMessage("$prefix Gamemode set to adventure.")
     }
 
