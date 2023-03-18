@@ -1,5 +1,5 @@
 # GamemodeAlias
-Switch gamemode in zero time.
+Switch gamemode in amazingly short command.
 
 ## Commands & Permissions
 * `/survival[s, 0]`: `gamemodealias.command.survival`
