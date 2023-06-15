@@ -49,22 +49,6 @@ tasks {
     }
 }
 
-publishing {
-    repositories {
-        maven {
-            name = "repo"
-            credentials(PasswordCredentials::class)
-            url = uri("https://repo.hirosuke.me/repository/maven-central/")
-        }
-    }
-
-    publications {
-        create<MavenPublication>("mavenJava") {
-            from(components["java"])
-        }
-    }
-}
-
 kotlin {
     jvmToolchain(8)
 }

@@ -1,4 +1,4 @@
-# GamemodeAlias
+# gamemode-alias
 Switch gamemode in amazingly short command.
 
 ## Commands & Permissions
