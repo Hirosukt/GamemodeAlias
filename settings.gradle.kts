@@ -1,3 +1,3 @@
 
-rootProject.name = "GamemodeAlias"
+rootProject.name = "gamemode-alias"
 
