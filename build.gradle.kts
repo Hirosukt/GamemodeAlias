@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     compileOnly("org.bukkit:bukkit:$pluginVersion-R0.1-SNAPSHOT")
-    implementation(kotlin("stdlib"))
+    compileOnly(kotlin("stdlib"))
 }
 
 ktlint {
