@@ -2,7 +2,6 @@ name: @name@
 main: @mainPackage@
 version: @version@
 description: adds alias for gamemode command.
-depend: [MCKotlin-Paper]
 commands:
 
   survival:
